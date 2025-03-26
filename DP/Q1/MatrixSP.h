@@ -2,6 +2,14 @@
 #define MATRIXSP_H
 #include <iostream>
 #include <algorithm>
+#include <vector>
+struct Point{
+    int x;
+    int y;
+    int sum=0;
+    vector<Point> path;
+    Point(int x, int y):x(x),y(y){}
+};
 class MatrixSP{
     public:
         int **m=nullptr;
@@ -12,6 +20,8 @@ class MatrixSP{
         int GetMinSum();
         void ShowPath();
 };
+
+
 
 MatrixSP::MatrixSP(int **m, int r, int c){
     this->m = m;
