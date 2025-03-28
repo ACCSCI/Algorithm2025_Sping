@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/ProgramPlayground/CPP/Algorithm2025_Sping/DP/Q1",
-      "program": "d:/ProgramPlayground/CPP/Algorithm2025_Sping/DP/Q1/build/Debug/outDebug",
+      "cwd": "d:/ProgramPlayground/CPP/Algorithm2025_Sping/Projects/DP/Q2",
+      "program": "d:/ProgramPlayground/CPP/Algorithm2025_Sping/Projects/DP/Q2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
