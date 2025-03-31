@@ -6,7 +6,6 @@ using namespace std;
 int main(void)
 {
 	string str;
-
 	cout << "Please enter a sequence of brackets including \'(\', \')\', \'[\', \']\', \'{\' and \'}'((}(}):" << endl;
 	cin >> str;//输入：(}(}
 	MinBracketsProblem mbp(str);//----------定义一个最少括号问题对象
